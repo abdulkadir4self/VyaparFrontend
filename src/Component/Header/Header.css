@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.headerContainer{
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    /* padding: 1rem; */
+}
+.headerNavbar{
+    padding: 0;
+    /* border-bottom: 1px solid black; */
+    padding: 1rem;
+
+}
+.navbar-brand p{
+    color: black !important;
+    font-weight: 800;
+    font-family: 'Ubuntu' , sans-serif;
+    margin-bottom: 0;
+}
+.navbar-brand span{
+    color: #FCBD01 !important;
+    font-weight: 800;
+    font-family: 'Ubuntu' , sans-serif;
+}
+.headerNavbar .navbar-nav li a{
+    padding: .5rem .5rem;
+    /* padding: 0; */
+    font-family: 'Lato' , sans-serif;
+    font-weight: 600;
+    color: black !important;
+}
+.headerNavbar .navbar-nav li:last-child a{
+    padding: .5rem 1.7rem;
+    background-color: #FCBD01;
+    border-radius: 20px;
+    color: black !important;
+}
+.headerNavbar .navbar-nav li{
+   margin-right: 1rem;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    .headerNavbar .navbar-brand{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.headerNavbar .navbar-brand img{
+    width: 150px;
+    margin-left: 1rem;
+}
+  }
+  
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.headerNavbar .navbar-brand{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.headerNavbar .navbar-brand img{
+    width: 150px;
+    margin-left: 1rem;
+}
+  }
+
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for tablets in portrait orientation */
+    .headerNavbar .navbar-brand{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .headerNavbar .navbar-brand img{
+        width: 200px;
+        margin-left: 1rem;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .headerNavbar .navbar-brand img{
+        width: 250px;
+        margin-left: 1rem;
+    }
+    .headerNavbar .navbar-brand{
+        margin-right: 0 !important;
+        margin-left: .5rem !important;
+    }
+    .headerNavbar .navbar-nav{
+        margin-right: 0 !important;
+        /* margin-left: 0 !important; */
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+
+    }
+    .headerNavbar .navbar-nav .nav-link{
+       padding: 0;        
+    }
+    .headerNavbar .navbar-nav li:last-child{
+        margin-right: .5rem;
+    }
+}
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .headerNavbar .navbar-brand img{
+        width: 250px;
+        margin-left: 1rem;
+    }
+    .headerNavbar .navbar-brand{
+        margin-right: 0 !important;
+        margin-left: .5rem !important;
+    }
+    .headerNavbar .navbar-nav{
+        margin-right: 0 !important;
+        /* margin-left: 0 !important; */
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+
+    }
+    .headerNavbar .navbar-nav .nav-link{
+       padding: 0;        
+    }
+    .headerNavbar .navbar-nav li:last-child{
+        margin-right: .5rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .headerNavbar .navbar-nav .nav-link{
+     font-size: 1.2rem; 
+       
+    }
+    .headerNavbar .navbar-nav{
+        margin: 1rem 0;
+    }
+  }
